@@ -9,7 +9,7 @@ import Vip_carousel from "./carousol/Vip_carousel";
 import Footer from "./Footer";
 import Contact from "./Contact";
 import RoomCard from "./room_card";
-import Checkout from "./checkout";
+import Checkout from "./Checkout";
 export default function Home() {
     const [showButton, setShowButton] = useState(false);
     useEffect(() => {
