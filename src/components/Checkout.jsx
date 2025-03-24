@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./checkout.css";
 
+
 function Checkout() {
   const [checkInDate, setCheckInDate] = useState("");
   const [checkOutDate, setCheckOutDate] = useState("");
