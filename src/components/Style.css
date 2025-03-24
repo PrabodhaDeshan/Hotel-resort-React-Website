@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 650px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+  }
+  
+
+
+@media (max-width: 768px) {
+    .hero img{
+        width: 100%;
+        margin-top: 0;
+    
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      }
+    
+}
+.booking-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.booking-section{
+    width: 70%;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .about-left{
+        margin-top: 400px;
+    }
+    
+  }
+
+
+.about{
+    display: flex;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.about-left{
+    width: 50%;
+    padding: 70px 20px 0px 100px ;
+
+}
+
+
+.about-right{
+    width: 50%;
+    
+}
+
+@media (max-width: 800px) {
+    .about{
+        display: block;
+    }
+    .about-left{
+        width: 100%;
+        padding: 20px ;
+    
+    }
+    .about-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .booking-section{
+        width: 90%;
+    
+    }
+    
+}
+
+.about-right img{
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+
+    
+}
+.vip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A1740;
+    padding: 100px 150px 100px 150px;
+}
+
+@media (max-width: 768px) {
+    .vip{
+        padding: 0px 0px 0px 0px;
+        overflow: hidden;
+        height: auto;
+    }
+}
+
+
+.rooms{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.room-cards{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 50%; 
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease; 
+    z-index: 1000; 
+  }
+  
+  .back-to-top:hover {
+    background-color: #0056b3; 
+  }
+
+  .contacts{
+    overflow: hidden;
+  }

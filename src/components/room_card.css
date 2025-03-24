@@ -1,0 +1,77 @@
+.card2-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card2 {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card2:hover {
+    transform: scale(1.05);
+  }
+  
+  .card2-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card2-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .card2-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .card2-button:hover {
+    background: #0056b3;
+  }
+  
+
+  @media (min-width: 1024px) {
+    .card2-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card2-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+
+  .card2-content button{
+    background-color: #48266e;
+    color: white;
+    border-radius: 0;
+    
+    
+  }
+
+  .card2-content button:hover {
+    background-color: #efefef;
+    color: #48266e;
+  }
+
+  .book{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #48266e;
+  }

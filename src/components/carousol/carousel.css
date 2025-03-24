@@ -1,0 +1,97 @@
+/* src/components/CardCarousel.css */
+.card-carousel {
+    width: 90%;
+  }
+  
+  .card {
+    background: #433554;
+    color: #ffffff;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+.card-content {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .card-image {
+    flex: 1;
+    margin-right: 20px;
+
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    flex: 2;
+
+  }
+  
+  .card-text h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card-text p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  .slick-slide {
+    padding: 0 10px;
+  }
+
+
+  .slick-slide {
+    padding: 0 10px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    
+    color: #ffffff;
+  }
+  
+  .slick-dots li button:before {
+    color: #ffffff;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #000;
+  }
+
+
+  @media (max-width: 900px) {
+    
+      .card-content {
+        display: block;
+      
+      }
+      
+      .card-text {
+        text-align: center;
+        padding: 20px;
+    
+      }
+      .card-image {
+        flex: 1;
+        margin-right: 0;
+    
+      }
+      .slick-prev:before,
+  .slick-next:before {
+    display: none;
+    
+    
+  }
+}
+
+  
+

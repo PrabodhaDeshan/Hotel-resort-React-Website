@@ -1,0 +1,67 @@
+
+.search-room-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .horizontal-form {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .form-group {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .check-availability-btn {
+    margin-bottom: 22px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end; 
+  }
+  
+  .check-availability-btn:hover {
+    background-color: #555;
+  }
+
+  @media (max-width: 768px) {
+    .horizontal-form {
+      flex-direction: column;
+    }
+    .check-availability-btn {
+      align-self: stretch; 
+    }
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+  }
